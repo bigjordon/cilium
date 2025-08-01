@@ -26,7 +26,7 @@ default_network="kind-cilium"
 default_apiserver_addr="127.0.0.1"
 default_apiserver_port=0 # kind will randomly select
 default_kubeconfig=""
-default_external_dns="1.1.1.1"
+default_external_dns="114.114.114.114"
 secondary_network="${default_network}-secondary"
 
 PROG=${0}
