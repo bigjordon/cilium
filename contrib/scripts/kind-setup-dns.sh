@@ -11,7 +11,7 @@
 
 set -euo pipefail
 
-external_dns="1.1.1.1"
+external_dns="114.114.114.114"
 for i in /etc/kind-external-dns-*.conf; do
   external_dns="${i#*kind-external-dns-}"
   external_dns="${external_dns%.conf}"
